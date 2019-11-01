@@ -4,6 +4,8 @@
 
 [Section 7 - Pics](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/pics)
 
+[Section 11 - Videos](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/videos)
+
 
 https://www.udemy.com/react-redux/
 
