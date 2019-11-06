@@ -1,7 +1,7 @@
 console.clear()
 const createPolicy = (name, amount) => {
   return {
-    type : 'CREATEPOLICY',
+    type : 'CREATE_POLICY',
     payload : {
       name, amount, bill
     }
@@ -9,7 +9,7 @@ const createPolicy = (name, amount) => {
 }
 const deletePolicy = (name) => {
   return {
-    type : 'DELETEPOLICY',
+    type : 'DELETE_POLICY',
     payload : {
       name
     }
@@ -17,7 +17,7 @@ const deletePolicy = (name) => {
 }
 const claimRequest = (name, amountofclaim, fees) => {
   return {
-    type : 'CLAIMREQUEST',
+    type : 'CLAIM_REQUEST',
     payload : {
       name, amountofclaim, fees
     }
@@ -25,21 +25,21 @@ const claimRequest = (name, amountofclaim, fees) => {
 }
 
 const creteReducer = (previesdelte = [], action) => {
-  if(action.type === "CREATEPOLICY") {return [...previesdelte, action.payload ]}
+  if(action.type === "CREATE_POLICY") {return [...previesdelte, action.payload ]}
     else{return previesdelte}
 }
-const clamReducer = (totalamount=200, action) => {
-  if(action.type === "CLAIMREQUEST") {
+const claimReducer = (totalamount=200, action) => {
+  if(action.type === "CLAIM_REQUEST") {
     return totalamount - (action.payload.amountofclaim  + action.payload.fees)}
-  else if(action.type === "CREATEPOLICY") {
+  else if(action.type === "CREATE_POLICY") {
     return totalamount + (action.payload.amount + action.payload.bill)}
   else{return totalamount}
 }
 const deleteReducer = (userlist = [], action) => {
-  if(action.type === "CREATEPOLICY"){
+  if(action.type === "CREATE_POLICY"){
     return [...userlist, action.payload]
   }
-  else if(action.type === "DELETEPOLICY") {
+  else if(action.type === "DELETE_POLICY") {
     return userlist.filter( name => name !== action.payload.name)
   }
   else {
