@@ -3,7 +3,7 @@ const createPolicy = (name, amount) => {
   return {
     type : 'CREATE_POLICY',
     payload : {
-      name, amount, bill
+      name, amount
     }
   }
 }
