@@ -24,7 +24,7 @@ const claimRequest = (name, amountofclaim, fees) => {
   }
 }
 
-const creteReducer = (previesdelte = [], action) => {
+const createReducer = (previesdelte = [], action) => {
   if(action.type === "CREATE_POLICY") {return [...previesdelte, action.payload ]}
     else{return previesdelte}
 }
@@ -48,8 +48,8 @@ const deleteReducer = (userlist = [], action) => {
 }
 const {createStore, combineReducers} = Redux;
 const allReducers = combineReducers({
-  creteReducer:creteReducer,
-  clamReducer:clamReducer,
+  createReducer:createReducer,
+  claimReducer:claimReducer,
   deleteReducer:deleteReducer
 })
 const store = createStore(allReducers)
