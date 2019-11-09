@@ -6,6 +6,8 @@
 
 [Section 11 - Videos](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/videos)
 
+[Section 11 - Songs](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/songs)
+
 
 https://www.udemy.com/react-redux/
 
