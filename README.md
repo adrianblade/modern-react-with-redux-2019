@@ -1,12 +1,18 @@
 # Modern React with Redux [2019 Update]
 
-[Section 4 - Seasons](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/seasons)
+[Blog](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/blog)
 
-[Section 7 - Pics](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/pics)
+[Hook-simple](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/hooks-simple)
 
-[Section 11 - Videos](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/videos)
+[Seasons](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/seasons)
 
-[Section 11 - Songs](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/songs)
+[Pics](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/pics)
+
+[Videos](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/videos)
+
+[Songs](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/songs)
+
+[Translate](https://github.com/adrianblade/modern-react-with-redux-2019/tree/master/translate)
 
 
 https://www.udemy.com/react-redux/
